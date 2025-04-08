@@ -3,7 +3,10 @@ import React, { useEffect, useRef } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 
 function Model(props) {
-  const { nodes, materials } = useGLTF("/models/scene.glb");  //useGLTF to load .glb/.gltf 3D model
+   const modelPath = `${import.meta.env.BASE_URL}models/scene.glb`;
+    console.log("Trying to load GLTF from:", modelPath); // ← This should print full URL
+    const { nodes, materials } = useGLTF(modelPath);
+  // const { nodes, materials } = useGLTF("/models/scene.glb");  //useGLTF to load .glb/.gltf 3D model
 
   const texture = useTexture(props.item.img);  //to load image textures
 

@@ -16,5 +16,5 @@ export default defineConfig({
     minify: false,
     sourcemap: true,
   },
-  base: '/IShow-Hub', // ✅ use relative path
+  base: '/IShow-Hub/', // ✅ use relative path
 });
