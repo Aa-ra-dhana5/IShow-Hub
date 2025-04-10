@@ -8,7 +8,7 @@ A modern, performant, and visually stunning web application built with **React**
 
 ## 🚀 Live Demo
 
-**🔗 [Click here to view the live site]([https://Aa-ra-dhana5.github.io/IShow-Hub/1])**  
+**🔗 [Click here to view the live site](https://Aa-ra-dhana5.github.io/IShow-Hub/1)**  
 
 
 ---
